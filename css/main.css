@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-white: pink;
+    --pepino:green;
+    --font-title: "Rubik";
+}
+.logo{
+    width: 120px;
+}
+.menu li{
+    display: inline;
+}
+.link{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+.btn-green{
+    background-color: aqua;
+    color: var(--color-white);
+}
+.btn-grey{
+    background-color: grey;
+    color: var(--color-white);
+}
+.hero{
+    height: 500px;
+    background-image: url("../images/Cabecera-Blog-de-Adalab.png");
+    background-size: cover;
+    background-position: center;
+    color:var(--color-white);
+    font-family: var(--font-title);
+}
+/*
+.link.btn-green{
+    background-color: aqua;
+    color: white;
+}*/
+
